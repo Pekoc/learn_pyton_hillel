@@ -11,18 +11,15 @@ try:
 
         if value_operator == '1':
             result = value_float_1 + value_float_2
-
         elif value_operator == '2':
             result = value_float_1 - value_float_2
-
         elif value_operator == '3':
             result = value_float_1 * value_float_2
-
         elif value_operator == '4':
             result = value_float_1 / value_float_2
-
         else:
             print("Incorrect choose of operation")
+
 except ValueError:
         print("Enter the number")
 
